@@ -5,6 +5,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/joshbuddy/swearjar"
   s.authors = ["Joshua Hull"]
 
+  s.summary = "Put another nickel in the swearjar. Simple profanity detection with content analysis."
   s.description = "Put another nickel in the swearjar. Simple profanity detection with content analysis."
   s.email = "joshbuddy@gmail.com"
   s.extra_rdoc_files = [
@@ -19,5 +20,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.3.6"
 
   s.add_runtime_dependency("fuzzyhash", [">= 0.0.11"])
+  s.add_development_dependency("rspec", [">= 2.6.0"])
 end
 
